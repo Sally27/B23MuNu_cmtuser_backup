@@ -1,0 +1,10 @@
+#ifndef URANIADEV_VERSION
+/* Automatically generated file: do not modify! */
+#ifndef CALC_GAUDI_VERSION
+#define CALC_GAUDI_VERSION(maj,min) (((maj) << 16) + (min))
+#endif
+#define URANIADEV_MAJOR_VERSION 6
+#define URANIADEV_MINOR_VERSION 2
+#define URANIADEV_PATCH_VERSION 1
+#define URANIADEV_VERSION CALC_GAUDI_VERSION(URANIADEV_MAJOR_VERSION,URANIADEV_MINOR_VERSION)
+#endif

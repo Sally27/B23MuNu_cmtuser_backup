@@ -1,0 +1,2 @@
+touch config.tar
+gaudirun.py $APPCONFIGROOT/options/DaVinci/DV-Stripping21r1p1-Stripping.py $APPCONFIGROOT/options/DaVinci/DV-RedoCaloPID-Stripping21.py $APPCONFIGROOT/options/DaVinci/DV-RawEventJuggler-2_0-to-4_2.py $APPCONFIGROOT/options/DaVinci/DataType-2012.py $STRIPPINGSELECTIONSROOT/tests/data/Reco14_2011Data_MagDn_New.py $APPCONFIGROOT/options/DaVinci/InputType-DST.py DaVinci-Nevents.py tck.py | tee log
